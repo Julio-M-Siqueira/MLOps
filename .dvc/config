@@ -1,0 +1,4 @@
+[core]
+    remote = dvcbucket
+['remote "dvcbucket"']
+    url = s3://dvstrainment-v1
