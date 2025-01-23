@@ -37,7 +37,7 @@ jobs:
       - name: Configure DVC remote
         run: |
           source .venv/bin/activate
-          dvc remote add -d myremote s3://my-bucket-name/path/to/data
+          dvc remote add -d myremote s3://dvstrainment-v1
           dvc remote modify myremote access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
           dvc remote modify myremote secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
