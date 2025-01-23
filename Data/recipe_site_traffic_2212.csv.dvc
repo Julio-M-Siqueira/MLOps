@@ -1,5 +1,5 @@
 outs:
-- md5: cfcf62f9961e1ff2f4e64afaecfd56b0
-  size: 40989
+- md5: 9d58b2c5ed85c24c9f1aae436b200b59
+  size: 38910
   hash: md5
   path: recipe_site_traffic_2212.csv
